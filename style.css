@@ -102,7 +102,7 @@ footer {
     margin-top: 10px;
 }
 
-/* スマートフォン */
+/* スマートフォン 
 @media screen and (max-width: 600px) {
     #top {
         padding-top: 80px;
@@ -113,10 +113,11 @@ footer {
     }
 
     #works-grid {
-        grid-template-columns: 2fr;
+        grid-template-columns: 1fr;
     }
 
     .works-controls {
         flex-direction: column;
     }
-}
+}*/
+
