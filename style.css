@@ -6,8 +6,12 @@ html {
 }
 
 body {
-  background: #ffffff;
-  color: #000000;
+    background-color: white;
+    transition: background-color 1s;
+}
+
+.site-header {
+    transition: background-color 1s;
 }
 
 a {
@@ -101,6 +105,52 @@ footer {
     font-size: 10px;
     margin-top: 10px;
 }
+
+/* 天気 */
+#weather-icon {
+    font-size: 60px;
+    margin: 0;
+}
+
+/* 晴れ */
+body.weather-sunny {
+    background-color: #fffaf0;
+}
+body.weather-sunny .site-header {
+    background-color: #fffaf0;
+}
+
+/* 曇り */
+body.weather-cloudy {
+    background-color: #dfe3e8;
+}
+body.weather-cloudy .site-header {
+    background-color: #dfe3e8;
+}
+
+/* 雨 */
+body.weather-rainy {
+    background-color: #cbd9e5;
+}
+body.weather-rainy .site-header {
+    background-color: #cbd9e5;
+}
+
+/* 雪 
+body.weather-snowy {
+    background-color: #eef5fa;
+}
+body.weather-snowy .site-header {
+    background-color: #eef5fa;
+}
+
+/* 雷雨 
+body.weather-stormy {
+    background-color: #b9b9c5;
+}
+body.weather-stormy .site-header {
+    background-color: #b9b9c5;
+}*/
 
 /* スマートフォン */
 @media screen and (max-width: 600px) {
